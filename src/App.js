@@ -12,7 +12,7 @@ function App() {
         <HeaderComponent />
           <Routes>
               {/* http://localhost:8080 */}
-              <Route path='/' element = { <ListTodoComponent /> }></Route>
+              <Route path='/todo-frontend' element = { <ListTodoComponent /> }></Route>
                {/* http://localhost:8080/todos */}
               <Route path='/todos' element = { <ListTodoComponent /> }></Route>
               {/* http://localhost:8080/add-todo */}
